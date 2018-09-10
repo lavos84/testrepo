@@ -1,12 +1,3 @@
----
-title: "My Data Science Profile"
-author: "Drew Wilkins"
-date: "September 9, 2018"
-output: 
-  html_document:
-    keep_md: true
----
-
 <!--
   * Located in the main project folder
   * Describe the project purpose
