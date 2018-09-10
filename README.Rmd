@@ -1,0 +1,43 @@
+---
+title: "My Data Science Profile"
+author: "Drew Wilkins"
+date: "September 9, 2018"
+output: 
+  html_document:
+    keep_md: true
+---
+
+<!--
+  * Located in the main project folder
+  * Describe the project purpose
+  * Describe the project title
+  * Copyright information
+  * Organization of the folders
+  * Instructions for reproducing the output
+  * System information (sessionInfo)
+  
+-->
+# Purpose
+
+The purpose of this repository is to display the ratings I gave myself for my data science profile.  There were 7 categories, each rated between 1 and 5 (1 being weak in that category, 5 being high).  The ratings I assigned myself are as follows:
+
+Computer Programming: 4
+Math: 5
+Statistics: 3
+Machine Learning: 3
+Domain Expertise: 4
+Communication and Presentation Skills: 4
+Data Visualization: 2
+
+# Specifications
+
+```{r sessioninfo, echo=FALSE}
+sessionInfo()
+```
+# Organization
+
+All files are located in the DataScienceProfile directory.  I had intended to add a directory to contain files for McGee's stat6306datascience repo, but this repository does not exist on GitHub and has therefore been omitted.
+
+# Reproducing the Output
+
+To reproduce the histogram, simply source the MakeHistogram.R file in an R command console.
